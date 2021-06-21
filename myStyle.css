@@ -1,0 +1,164 @@
+/*fix oveflowing*/
+
+* {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+body {
+  background-color: rgb(240, 160, 40);
+}
+.parent {
+  padding: 15px;
+  margin: 100px 200px 20px 200px;
+  border-radius: 25px;
+  height: 300px;
+  background-color: rgb(187, 125, 33);
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  border-radius: 25px;
+  background-color: rgb(68, 155, 55);
+  font-weight: 900;
+  flex: 1 1 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.welcome {
+  margin: 5px;
+  border-radius: 25px;
+  text-align: center;
+  font-size: 70px;
+}
+.newJob {
+  flex-direction: row;
+  flex: 1 1 auto;
+  display: flex;
+}
+#input {
+  margin: 5px;
+  outline: none;
+  border-radius: 25px;
+  background-color: rgb(68, 155, 55);
+  min-width: 0;
+  flex: 1 1 80%;
+  font-size: 70px;
+}
+.submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  border-radius: 25px;
+  background-color: rgb(68, 155, 55);
+  font-size: 70px;
+  flex-basis: 10%;
+}
+
+.clear {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  border-radius: 25px;
+
+  background-color: rgb(68, 155, 55);
+  font-size: 70px;
+  flex-basis: 10%;
+}
+
+#child {
+  margin: 40px 200px 200px 200px;
+  border-radius: 25px;
+  background-color: rgb(187, 125, 33);
+  display: flex;
+  flex-direction: column;
+}
+.content {
+  margin: 20px;
+  height: 100px;
+  display: flex;
+}
+.job {
+  outline: none;
+  border-radius: 25px;
+  text-align: center;
+  font-size: 70px;
+  background-color: rgb(68, 155, 55);
+  text-overflow: ellipsis;
+  overflow: hidden;
+  flex-basis: 80%;
+}
+
+.edit {
+  border-radius: 25px;
+  margin: 0px 4px 0px 4px;
+  text-align: center;
+  background-color: rgb(68, 155, 55);
+  flex: 1 1 auto;
+
+  flex-basis: 10%;
+  font-size: 70px;
+}
+.delete {
+  border-radius: 25px;
+  text-align: center;
+  background-color: rgb(68, 155, 55);
+  flex: 1 1 auto;
+
+  flex-basis: 10%;
+  font-size: 70px;
+}
+
+#navigation {
+  height: 120px;
+  display: flex;
+  flex-direction: row;
+  flex: 1 1 auto;
+  margin: 100px 300px 20px 300px;
+}
+
+#prevBtn {
+  flex: 1 1 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  border-radius: 25px;
+  background-color: rgb(68, 155, 55);
+  font-size: 70px;
+}
+
+#pageBtns {
+
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: row;
+}
+#nextBtn {
+  flex: 1 1 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  border-radius: 25px;
+  background-color: rgb(68, 155, 55);
+  font-size: 70px;
+}
+
+.filler {
+  visibility: hidden;
+  flex: 1 1 auto;
+  background-color: rgb(68, 155, 55);
+}
+
+.navBtn {
+  flex: 1 1 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  border-radius: 25px;
+  background-color: rgb(68, 155, 55);
+  font-size: 70px;
+}

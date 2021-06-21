@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="myStyle.css" />
+    <script src="myScript.js"></script>
+  </head>
+  <body>
+    <div class="parent">
+      <div class="header">
+        <span class="welcome">To Do List</span>
+      </div>
+      <div class="newJob">
+        <input type="text" id="input" onkeypress="enter(event)" />
+        <span class="submit" onclick="add()">submit</span>
+        <span class="clear" onclick="empty()">clear</span>
+      </div>
+    </div>
+    <div id="child"></div>
+    <div id="navigation">
+      <span class="filler"></span>
+      <span class="filler"></span>
+      <span class="filler"></span>
+      <span id="prevBtn" onclick="moveLeft()"> < </span>
+      <div id="pageBtns">
+        <span id="1" class="navBtn" onclick="skin()">1</span>
+      </div>
+      <span id="nextBtn" onclick="moveRight()"> > </span>
+      <span class="filler"></span>
+      <span class="filler"></span>
+      <span class="filler"></span>
+    </div>
+  </body>
+</html>
